@@ -6,7 +6,7 @@
     state: present
 - name: Install PHP Depedency
   apt: 
-    name: ['php5.6', 'php5.6-fpm', 'php5.6-mysql', 'php', 'php-bz2', 'php-curl', 'php-gd', 'php-mbstring', 'php-gettext', 'php-zip', 'php5.6-zip', 'php-tcpdf', 'php-xml', 'phpmyadmin', 'php-dev', 'libmcrypt-dev', 'gcc', 'make', 'autoconf', 'libc-dev', 'pkg-config']
+    name: ['php5.6', 'php5.6-fpm', 'php5.6-mysql', 'php', 'php-bz2', 'php-curl', 'php-gd', 'php-mbstring', 'php-gettext', 'php-zip', 'php5.6-zip', 'php-tcpdf', 'php5.6-xml', 'phpmyadmin', 'php-dev', 'libmcrypt-dev', 'gcc', 'make', 'autoconf', 'libc-dev', 'pkg-config']
     update_cache: yes
     state: present
   become_method: sudo
